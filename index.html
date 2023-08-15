@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/mian.css">
+    <title>pakemon</title>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <img class="site-header__img" src="./images/pakemon.png" alt="">
+            <form class="site-header__form">
+                <div class="site-header__inpwrapper">
+                    <label class="site-header__form-lable" for="name">Name:</label>
+                    <input class="site-header__userSearch site-header__userSearch-name " id="name" type="text" placeholder="Search..." autocomplete="off" name="user_search">
+                </div>
+                <div class="site-header__btnwrapper">
+                    <button class="site-header__btn" type="submit">Search</button>
+                    <button class="site-header__exitbtn" type="button">back</button>
+                </div>
+            </form>
+        </div>
+    </header>
+    <main class="site-main">
+        <div class="container">
+            <ol class="site-main__list">
+                
+            </ol>
+        </div>
+        
+        
+        
+        
+        <!-- Button trigger modal -->
+        <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Launch demo modal
+        </button> -->
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <duv class="modal-body">
+                        <span ></span>
+                        <span class="weight span"></span>
+                        <span class="height span"></span>
+                        <span class="egg span"></span>
+                        <span class="spawn-time span"></span>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-success">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <script src="./js/bootstrap.min.js"></script>
+        <script src="./js/pokemons.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+    </html>
